@@ -59,7 +59,6 @@ jQuery("[data-bgcolor]").each(function () {
 });
 
 function openna(){
-	document.getElementById("brand-name").style.color="#3f3a64"
 	document.getElementById("text1").style.color="#747474"
 	document.getElementById("text2").style.color="#747474"
 	document.getElementById("text3").style.color="#747474"
@@ -68,7 +67,6 @@ function openna(){
 	document.getElementById("text6").style.color="#747474"
   }
   function closena(){
-	document.getElementById("brand-name").style.color="white"
 	document.getElementById("text1").style.color="white"
 	document.getElementById("text2").style.color="white"
 	document.getElementById("text3").style.color="white"

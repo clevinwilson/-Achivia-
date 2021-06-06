@@ -19344,6 +19344,10 @@ h3.title-service {
   .features-list{
     font-size: 20px;
   }
+  .bg1{
+    background-image: url(../images/b1mini.jpg);
+  }
+
 
 }
 .count-number{
@@ -19364,3 +19368,19 @@ h3.title-service {
   }
 }
 /*# sourceMappingURL=style-starter.css.map */
+
+@media screen and (max-width: 1199px) {
+
+  .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 10px;
+  }
+
+}
+.feature-icon{
+  height: 60px;
+}
+
+.logo-text{
+  color: #6d0f4f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
