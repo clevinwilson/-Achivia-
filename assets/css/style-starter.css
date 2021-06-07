@@ -19304,84 +19304,87 @@ h3.title-service {
   }
 }
 
-.edu-progs-boxicon{
+.edu-progs-boxicon {
   font-size: 37px;
-   margin-top: 15px;
-   color: #294d9f;
-
+  margin-top: 15px;
+  color: #294d9f;
 }
-.edu-progs-boxtext{
+
+.edu-progs-boxtext {
   font-size: 20px;
 }
 
-.study-box{
+.study-box {
   background-color: #cbcbcb;
-    height: 230px;
-    border-radius: 8px;
-    text-align: center;
+  height: 230px;
+  border-radius: 8px;
+  text-align: center;
 }
 
-.study-box1{
-  background-image: linear-gradient( 29deg , #105eab, #81c6ff);
+.study-box1 {
+  background-image: linear-gradient( 29deg, #105eab, #81c6ff);
 }
-.study-box2{
-  background-image: linear-gradient(  364deg, #9a2382, #fa75c5);
+
+.study-box2 {
+  background-image: linear-gradient( 364deg, #9a2382, #fa75c5);
 }
-.study-box3{
+
+.study-box3 {
   background-image: linear-gradient( 341deg, #5c5c5c, #cacaca);
 }
-.features-section{
+
+.features-section {
   padding-left: 80px;
 }
-.features-list{
+
+.features-list {
   font-size: 27px;
 }
 
 @media screen and (max-width: 996px) {
-  .features-section{
+  .features-section {
     padding-left: 16px;
   }
-  .features-list{
+  .features-list {
     font-size: 20px;
   }
-  .bg1{
+  .bg1 {
     background-image: url(../images/b1mini.jpg);
   }
-
-
 }
-.count-number{
+
+.count-number {
   font-size: 44px;
 }
-.site-counter{
+
+.site-counter {
   background-image: url(https://www.edubrightline.com/en/wp-content/uploads/2021/04/counter-bg-img.jpg?id=1933);
   height: 509px;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 996px) {
-  .conter-text{
+  .conter-text {
     margin-top: 130px;
   }
 }
+
 /*# sourceMappingURL=style-starter.css.map */
 
 @media screen and (max-width: 1199px) {
-
-  .navbar-expand-lg .navbar-nav .nav-link{
+  .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 10px;
   }
- 
-
 }
-.feature-icon{
+
+.feature-icon {
   height: 60px;
 }
 
-.logo-text{
+.logo-text {
   color: #6d0f4f;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
