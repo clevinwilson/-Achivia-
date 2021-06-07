@@ -19351,6 +19351,7 @@ h3.title-service {
   .bg1 {
     background-image: url(../images/b1mini.jpg);
   }
+  
 }
 
 .count-number {
@@ -19370,6 +19371,7 @@ h3.title-service {
   .conter-text {
     margin-top: 130px;
   }
+
 }
 
 /*# sourceMappingURL=style-starter.css.map */
@@ -19377,6 +19379,11 @@ h3.title-service {
 @media screen and (max-width: 1199px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 996px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
   }
 }
 
