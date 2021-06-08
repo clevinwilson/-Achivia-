@@ -59,6 +59,7 @@ jQuery("[data-bgcolor]").each(function () {
 });
 
 function openna(){
+	document.getElementById("reg-btn").style.display="block"
 	document.getElementById("text1").style.color="#747474"
 	document.getElementById("text2").style.color="#747474"
 	document.getElementById("text3").style.color="#747474"
