@@ -19435,7 +19435,11 @@ h3.title-service {
 @media screen and (max-width: 996px) {
   .card-margin{
     padding-right: 15px;
+  
   }
+  #site-header{
+    background-color: white;
+}
 }
 .state-list{
   font-size: 17px;
@@ -19461,4 +19465,10 @@ h3.title-service {
 }
 .card-height{
   height: 83px;
+}
+
+@media screen and (min-width: 996px) {
+  #reg-btn{
+    display: none;
+  }
 }

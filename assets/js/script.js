@@ -65,7 +65,7 @@ function openna(){
 	document.getElementById("text4").style.color="#747474"
 	document.getElementById("text5").style.color="#747474"
 	document.getElementById("text6").style.color="#747474"
-	document.getElementById("reg-btn").style.display="block"
+
   }
   function closena(){
 	document.getElementById("text1").style.color="white"
@@ -74,5 +74,5 @@ function openna(){
 	document.getElementById("text4").style.color="white"
 	document.getElementById("text5").style.color="white"
 	document.getElementById("text6").style.color="white"
-	document.getElementById("reg-btn").style.display="none"
+
   }
