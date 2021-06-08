@@ -19351,7 +19351,6 @@ h3.title-service {
   .bg1 {
     background-image: url(../images/b1mini.jpg);
   }
-  
 }
 
 .count-number {
@@ -19371,7 +19370,6 @@ h3.title-service {
   .conter-text {
     margin-top: 130px;
   }
-
 }
 
 /*# sourceMappingURL=style-starter.css.map */
@@ -19381,6 +19379,7 @@ h3.title-service {
     font-size: 10px;
   }
 }
+
 @media screen and (max-width: 996px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 15px;
@@ -19395,66 +19394,75 @@ h3.title-service {
   color: #6d0f4f;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-@media screen and (max-width: 415px){
-.title-header {
+
+@media screen and (max-width: 415px) {
+  .title-header {
     font-size: 34px !important;
     line-height: 32px;
-}
-.title-subheader{
-  font-size: 24px !important;
+  }
+  .title-subheader {
+    font-size: 24px !important;
     line-height: 32px;
+  }
 }
-}
-.place-title{
+
+.place-title {
   color: #7e1c74;
 }
-.college-underline{
+
+.college-underline {
   font-size: 33px;
-    height: 1px;
-    background-color: #1d7f92;
-    width: 51px;
-    margin-left: 3px;
-    margin-top: 2px;
+  height: 1px;
+  background-color: #1d7f92;
+  width: 51px;
+  margin-left: 3px;
+  margin-top: 2px;
 }
-.location-box{
+
+.location-box {
   background-color: #e6e6e6;
   border-radius: 20px;
   padding-left: 7px;
   padding-right: 7px;
   font-size: 16px;
 }
-.card-bg{
+
+.card-bg {
   background-color: white;
   border-radius: 8px;
 }
-.card-margin{
+
+.card-margin {
   margin-bottom: 20px;
   padding-right: 0px;
-  
 }
+
 @media screen and (max-width: 996px) {
-  .card-margin{
+  .card-margin {
     padding-right: 15px;
-  
   }
   /* #site-header{
     background-color: white;
 } */
 }
-.state-list{
+
+.state-list {
   font-size: 17px;
   line-height: 13px;
 }
-.college-image{
+
+.college-image {
   width: 100%;
   height: 150px;
   object-fit: cover;
 }
-.cards{
-  border: solid 1px rgba(0,0,0,0.15);
+
+.cards {
+  border: solid 1px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
 }
-.cards:hover{
+
+.cards:hover {
   transform: translateY(-0.25rem);
   box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
   transition: .3s ease;
@@ -19463,23 +19471,23 @@ h3.title-service {
   -ms-transition: .3s ease;
   -o-transition: .3s ease;
 }
-.card-height{
+
+.card-height {
   height: 83px;
 }
 
 @media screen and (min-width: 996px) {
-  #reg-btn{
+  #reg-btn {
     display: none;
   }
 }
 
-.college-head-list{
+.college-head-list {
   text-align: center;
   padding: 32px;
-   
 }
 
-.college-head-button{
+.college-head-button {
   border-radius: 15px;
   padding-left: 16px;
   padding-right: 16px;
@@ -19487,16 +19495,18 @@ h3.title-service {
   background: #979797;
 }
 
-.sected-btn-background{
+.sected-btn-background {
   background-image: linear-gradient(191deg, #d70d80, #8d2782);
-        border-color: #ad1980;
+  border-color: #ad1980;
 }
+
 @media screen and (max-width: 996px) {
-  .college-head-list{
+  .college-head-list {
     padding-bottom: 0px;
   }
 }
-.college-head-button:hover{
+
+.college-head-button:hover {
   transform: translateY(-0.25rem);
   box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
   transition: .3s ease;
@@ -19506,4 +19516,11 @@ h3.title-service {
   -o-transition: .3s ease;
   background-image: linear-gradient(191deg, #d70d80, #8d2782);
   border-color: #ad1980;
+}
+
+.college-section-title {
+  font-size: 44px;
+  font-weight: 500;
+  color: #393939;
+  padding-bottom: 12px;
 }
