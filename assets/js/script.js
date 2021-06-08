@@ -65,7 +65,6 @@ function openna(){
 	document.getElementById("text4").style.color="#747474"
 	document.getElementById("text5").style.color="#747474"
 	document.getElementById("text6").style.color="#747474"
-
   }
   function closena(){
 	document.getElementById("text1").style.color="white"
