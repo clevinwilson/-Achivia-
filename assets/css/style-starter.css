@@ -19524,12 +19524,21 @@ h3.title-service {
   color: #393939;
   padding-bottom: 12px;
 }
-.page-head{
+
+.page-head {
   background-color: #f0f0f0;
   padding: 15px;
 }
+.brand-logo {
+
+  width: 100px;
+}
 @media screen and (max-width: 996px) {
-  .page-head{
+  .page-head {
     padding-bottom: 37px
+  }
+  .brand-logo {
+
+    width: 50px;
   }
 }
