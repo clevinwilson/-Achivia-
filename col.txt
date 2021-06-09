@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Achivia</title>
+    <link rel="icon" href="assets/images/AETlogo.png" type="image/gif" sizes="16x16">
+    <!-- google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <script src="https://kit.fontawesome.com/fcaa00c252.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <h1>
+                    <a id="brand-name" class="navbar-brand" href="index.html">
+                        <img src="assets/images/AETlogo.png" style="margin-top: -5px;" alt="" height="43px"> <samp
+                            class="logo-text">ACHIVIA</samp> </a>
+                </h1>
+
+                <!-- if logo is image enable this   
+          <a class="navbar-brand" href="#index.html">
+              <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+          </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span onclick="openna()" style="color: #630d49; background-color: none;"
+                        class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span onclick="closena()" style="color: #630d49; background-color: none;"
+                        class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul style="line-height: 31px;" class="navbar-nav mx-lg-auto">
+                        <li class="nav-item active">
+                            <a style="color: #6d0f4f;" class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item @@services__active">
+                            <a  id="text1" class="nav-link" href="courses.html">courses</a>
+                        </li>
+                        <li class="nav-item @@about__active">
+                            <a id="text2" class="nav-link" href="admission-programs.html">Admission Programs</a>
+                        </li>
+                        <li class="nav-item @@about__active">
+                            <a style="color: #6d0f4f;" id="text3" class="nav-link" href="colleges.html">colleges</a>
+                        </li>
+                        <li class="nav-item @@about__active">
+                            <a id="text4" class="nav-link" href="">features</a>
+                        </li>
+                        <li class="nav-item @@about__active">
+                            <a id="text5" class="nav-link" href="">About Us</a>
+                        </li>
+                        <li class="nav-item @@contact__active">
+                            <a id="text6" class="nav-link" href="">Contact</a>
+                        </li>
+                        <li id="reg-btn" class="nav-item @@contact__active">
+                            <a type="button" id="reg-btn" style="display: none; font-size: 14px;"
+                                class="btn btn-success btn-background" href="">REGISTER NOW</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!--/search-right-->
+                <div id="register-now" class="header-search">
+                    <div class='control mr-3'>
+                        <a type="button" class="btn btn-success btn-background" href="">REGISTER NOW</a>
+                    </div>
+                    <!-- full screen form controls -->
+                    <i class='icon-close fa fa-close material-icons'></i>
+                    <form action="error.html" method="GET" class='search-input'>
+                        <input class='input-search' placeholder='Start Typing' type='text'>
+                    </form>
+                </div>
+                <!--//search-right-->
+
+                <!-- toggle switch for light and dark theme -->
+                <!-- <div class="mobile-position">
+            <nav class="navigation">
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox">
+                  <div class="mode-container py-1">
+                    <i class="gg-sun"></i>
+                    <i class="gg-moon"></i>
+                  </div>
+                </label>
+              </div>
+            </nav>
+          </div> -->
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+
+        </div>
+    </header>
+    <!--/header-->
+
+        <!-- Service breadcrumb -->
+        <section class="w3l-about-breadcrumb text-center">
+            <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+                <div class="container py-lg-5 py-md-4">
+                    <h2 class="title pt-md-5 pt-4">Colleges</h2>
+                    <p class="inner-page-para mt-2"><a class="text-white" href="index.html"><samp>Home</samp></a> <i style="font-size: 13px;" class="fas fa-chevron-right"></i> <samp class="logo-text" style="font-size: 15px;color: #6d0f4f;">Colleges</samp> </p>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+        </section>
+        <!-- //Service breadcrumb -->
+
+
+    <section style="background-color: white;" class="w3l-blog">
+        <div class="blog py-5" id="Newsblog">
+            <div class="container py-lg-5 py-md-4 py-2">
+                <h3 class="title-big text-center mb-sm-5 mb-4">All Colleges</h3>               
+                <div class="row">
+                    <div  class="text-dark state-list col-md-3">
+                        <ul >
+                            <li>All Colleges</li>
+                            <hr>
+                            <li>Mangalore</li>
+                            <hr>
+                            <li>Bangalore</li>
+                            <hr>
+                            <li>Tamil Nadu</li>
+                            <hr>
+                        </ul>
+                    </div>
+                    
+                        <div class="col-md-9">
+                            <div class="row">
+                
+                                <div class="card-margin col-md-4 mt-2 item mt-md-0 mt-5">
+                                    <div style="border: solid 1px rgba(0,0,0,0.15);" class="card">
+                                        <div class="card-header p-0 position-relative">
+                                            <a href="#blog-single" class="zoom d-block">
+                                                <img class="college-image card-img-bottom d-block" src="https://www.edubrightline.com/en/wp-content/uploads/2021/04/AJ-medical.jpg"
+                                                    alt="Card image cap">
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-bg blog-details">
+                                            <div class="price-review d-flex justify-content-between mb-1 align-items-center">
+                                                <p style="color: #5f0142;" class="location-box"><i class="fas fa-map-marker-alt"></i> Mangalore</p>
+                                            </div>
+                                            <a href="#blog-single" style="font-size: 16px;" class="blog-desc">AJ Medical College</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-margin col-md-4 mt-2 item mt-md-0 mt-5">
+                                    <div style="border: solid 1px rgba(0,0,0,0.15);" class="card">
+                                        <div class="card-header p-0 position-relative">
+                                            <a href="#blog-single" class="zoom d-block">
+                                                <img class="college-image card-img-bottom d-block" src="https://www.edubrightline.com/en/wp-content/uploads/2021/04/father-muller.jpg"
+                                                    alt="Card image cap">
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-bg blog-details">
+                                            <div class="price-review d-flex justify-content-between mb-1 align-items-center">
+                                                <p style="color: #5f0142;" class="location-box"><i class="fas fa-map-marker-alt"></i> Mangalore</p>
+                                            </div>
+                                            <a href="#blog-single" style="font-size: 16px;" class="blog-desc">Father Muller Medical College </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div  class="card-margin col-md-4 mt-2 item mt-md-0 mt-5">
+                                    <div style="border: solid 1px rgba(0,0,0,0.15);" class="card">
+                                        <div class="card-header p-0 position-relative">
+                                            <a href="#blog-single" class="zoom d-block">
+                                                <img class="college-image card-img-bottom d-block" src="https://www.edubrightline.com/en/wp-content/uploads/2021/04/Yenapoya.jpg"
+                                                    alt="Card image cap">
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-bg blog-details">
+                                            <div class="price-review d-flex justify-content-between mb-1 align-items-center">
+                                                <p style="color: #5f0142;" class="location-box"><i class="fas fa-map-marker-alt"></i> Mangalore</p>
+                                            </div>
+                                            <a href="#blog-single" style="font-size: 16px;" class="blog-desc">Yenepoya Medical College</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div  class="card-margin col-md-4 mt-2 item mt-md-0 mt-5">
+                                    <div style="border: solid 1px rgba(0,0,0,0.15);" class="card">
+                                        <div class="card-header p-0 position-relative">
+                                            <a href="#blog-single" class="zoom d-block">
+                                                <img class="college-image card-img-bottom d-block" src="https://www.edubrightline.com/en/wp-content/uploads/2021/04/Shree-devi.jpg"
+                                                    alt="Card image cap">
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-bg blog-details">
+                                            <div class="price-review d-flex justify-content-between mb-1 align-items-center">
+                                                <p style="color: #5f0142;" class="location-box"><i class="fas fa-map-marker-alt"></i> Mangalore</p>
+                                            </div>
+                                            <a href="#blog-single" style="font-size: 16px;" class="blog-desc">Shreedevi Group of Colleges</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+        
+                                
+                
+                                <div  class="card-margin col-md-4 mt-2 item mt-lg-0 mt-5">
+                                    <div style="border: solid 1px rgba(0,0,0,0.15);" class="card">
+                                        <div class="card-header p-0 position-relative">
+                                            <a href="#blog-single" class="zoom d-block">
+                                                <img class="college-image card-img-bottom d-block" src="https://www.edubrightline.com/en/wp-content/uploads/2021/04/cme.jpg"
+                                                    alt="Card image cap">
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-bg blog-details">
+                                            <div class="price-review d-flex justify-content-between mb-1 align-items-center">
+                                                <p style="color: #5f0142;" class="location-box"><i class="fas fa-map-marker-alt"></i> Mangalore</p>
+                                            </div>
+                                            <a href="#blog-single" style="font-size: 16px;" class="blog-desc">Srinivas medical college</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-margin col-md-4  item mt-md-0 mt-5">
+                                    <div style="border: solid 1px rgba(0,0,0,0.15);" class="card">
+                                        <div class="card-header p-0 position-relative">
+                                            <a href="#blog-single" class="zoom d-block">
+                                                <img class="college-image card-img-bottom d-block" src="https://www.edubrightline.com/en/wp-content/uploads/2021/04/AJ-medical.jpg"
+                                                    alt="Card image cap">
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-bg blog-details">
+                                            <div class="price-review d-flex justify-content-between mb-1 align-items-center">
+                                                <p style="color: #5f0142;" class="location-box"><i class="fas fa-map-marker-alt"></i> Mangalore</p>
+                                            </div>
+                                            <a href="#blog-single" style="font-size: 16px;" class="blog-desc">AJ Medical College</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29 py-5">
+            <div class="container py-md-4">
+
+                <div class="row footer-top-29">
+
+                    <div class="col-lg-4 col-md-6 footer-list-29 footer-1">
+                        <div class="footer-logo mb-4">
+                            <a id="brand-name" class="navbar-brand" href="index.html">
+                                <img src="assets/images/AETlogo.png" style="margin-top: -5px;" alt="" height="43px">
+                                Achivia </a>
+                        </div>
+                        <p> Education is an embodiment of our philosophy of “genuineness, conviction and parity” towards
+                            every
+                            person who come to us seeking our guidance. The three pillars of our belief have been
+                            instilled in each
+                            one of us through substantial experience over a long period of time, being integral part of
+                            education
+                            consultancies.</p>
+                        <div class="main-social-footer-29 mt-md-4 mt-3">
+                            <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-list-29 footer-1 pr-lg-5 mt-md-0 mt-5">
+                        <h6 class="footer-title-29">Contact Info </h6>
+                        <p class="mb-2">Address : sdfdsfsdfasf</p>
+                        <p class="mb-2">Phone Number : <a href="">4567899</a></p>
+                        <p class="mb-2">Email : <a href="">abc@gmail.com</a></p>
+                        <p>Support : <a href="">info@support.com</a></p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-lg-0 mt-5">
+                        <ul>
+                            <h6 class="footer-title-29">Quick Links</h6>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">COURSES</a></li>
+                            <li><a href="">ADMISSION PROGRAMS</a></li>
+                            <li><a href=""> COLLEGES</a></li>
+                            <li><a href=""> FEATURES</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-lg-0 mt-5">
+                        <ul>
+                            <h6 class="footer-title-29">Programs</h6>
+                            <li><a href="">Study in India</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- copyright -->
+        <section class="w3l-copyright text-center">
+            <div class="container">
+                <!-- <p class="copy-footer-29">© 2021 Corp Vision. All rights reserved. Design by <a href="https://w3layouts.com/"
+            target="_blank">
+            W3Layouts</a></p> -->
+            </div>
+
+            <!-- move top -->
+            <button style="display: block; background-color: #25d366;" id="movetop" title="Go to top">
+                <a href=""><img style="width: 32px;" src="assets/images/whatsapp.svg" alt=""></a>
+            </button>
+            <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () {
+                    scrollFunction()
+                };
+
+                // function scrollFunction() {
+                //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                //     document.getElementById("movetop").style.display = "block";
+                //   } else {
+                //     document.getElementById("movetop").style.display = "none";
+                //   }
+                // }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+            <!-- /move top -->
+        </section>
+        <!-- //copyright -->
+    </footer>
+    <!-- //footer -->
+
+
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+
+    <!-- libhtbox -->
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <!-- libhtbox -->
+
+    <!-- banner slick slider -->
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- //banner slick slider -->
+
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+    <!-- //magnific popup -->
+
+    <!-- script for tesimonials carousel slider -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo1").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    768: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for tesimonials carousel slider -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+    <!--/MENU-JS-->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!--//MENU-JS-->
+
+    <!-- Search -->
+    <script>
+        $('.control').click(function () {
+            $('body').addClass('search-active');
+            $('.input-search').focus();
+        });
+
+        $('.icon-close').click(function () {
+            $('body').removeClass('search-active');
+        });
+    </script>
+    <!-- //Search -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
