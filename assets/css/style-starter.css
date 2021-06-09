@@ -19542,3 +19542,26 @@ h3.title-service {
     width: 50px;
   }
 }
+.whatsapp-icon{
+  width: 17%;
+  background-color: white;
+  padding: 8px;
+}
+.call-button{
+  width: 34%;
+    padding: 8px;
+    background: white;
+    color: black;
+    border-color: #992381;
+}
+.whatsapp-icon:hover{
+  background-color: #f1f1f1;
+}
+.reg-button-width{
+  width: 34%;
+}
+@media screen and (max-width: 996px) {
+  .reg-button-width{
+    width: 43%;
+  }
+}
