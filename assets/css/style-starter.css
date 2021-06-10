@@ -19565,3 +19565,12 @@ h3.title-service {
     width: 43%;
   }
 }
+.courses-image{
+  height: 470px;
+   object-fit: cover;
+}
+@media screen and (max-width: 996px) {
+  .courses-image{
+    height: 100%;
+  }
+}
